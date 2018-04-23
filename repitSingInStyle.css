@@ -1,0 +1,68 @@
+header {
+    font-size: 27px;
+    padding-top:1%;
+    padding-bottom:1%;
+    background-color: lightskyblue;
+}
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+}
+.navbar-inverse .navbar-brand {
+    color: #9d9d9d;
+}
+a {
+    text-decoration: none;
+}
+.navbar-inverse {
+    background-color: lightskyblue;
+    border-color: forestgreen;
+    color: #9d9d9d;
+}
+.navbar-brand{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left:10%;
+    font-size: 20px;
+    color: #9d9d9d;
+}
+fieldset{
+    margin:2%;
+}
+#btnSignUp{
+    margin-top: 4%;
+}
+.glyphicon{
+    float:left;
+    margin-right: 2%;
+}
+footer {
+    background-color: #555;
+    color: white;
+    padding: 15px;
+
+}
+.container-fluid{
+    margin-top:5%;
+}
+.form-group{
+    margin: 1%;
+
+}
+#btnSignIn{
+    margin-top: 2%;
+}
+.container{
+    margin-top: 1%;
+}
+#messageAlert{
+    margin-top:2%;
+}
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+    .row.content {height: auto;}
+}
